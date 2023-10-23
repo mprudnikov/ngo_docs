@@ -1,5 +1,3 @@
-![Berkeley Haas Center for Social Leadership](./assets/images/haas_csl.png)
-
 # Bears On Boards Report Command-Line Tool
 
 ## Mac OS X Usage
