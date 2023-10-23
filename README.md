@@ -21,6 +21,14 @@ In the Terminal App run the following line:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+
+If the installation fails due to requiring Administrator privileges, e.g. a locked school laptop, run the following commands:
+
+```
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew 
+eval "$(homebrew/bin/brew shellenv)"
+```
+
 Reopen the Terminal App and run the following command to make sure we have the latest package references:
 ```
 brew update && brew upgrade
